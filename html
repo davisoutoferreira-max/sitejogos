@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Jogos Clássicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 JOGOS CLÁSSICOS <small>5 jogos em um só lugar</small></h1>
+        
+        <div class="games-grid">
+            <!-- Jogo 1: Cobrinha -->
+            <div class="game-card">
+                <div class="game-title">🐍 Cobrinha</div>
+                <div class="game-canvas-wrapper">
+                    <canvas id="snakeCanvas" width="280" height="280"></canvas>
+                </div>
+                <div class="game-controls">
+                    <button class="reset-btn" id="snakeReset">🔄 Reiniciar</button>
+                </div>
+                <div class="status" id="snakeStatus">🐍 0</div>
+            </div>
+
+            <!-- Jogo 2: Jogo da Velha -->
+            <div class="game-card">
+                <div class="game-title">❌ Jogo da Velha</div>
+                <div class="game-canvas-wrapper">
+                    <canvas id="tttCanvas" width="280" height="280"></canvas>
+                </div>
+                <div class="game-controls">
+                    <button class="reset-btn" id="tttReset">🔄 Reiniciar</button>
+                </div>
+                <div class="status" id="tttStatus">Vez de X</div>
+            </div>
+
+            <!-- Jogo 3: Campo Minado -->
+            <div class="game-card">
+                <div class="game-title">💣 Campo Minado</div>
+                <div class="game-canvas-wrapper">
+                    <canvas id="mineCanvas" width="280" height="280"></canvas>
+                </div>
+                <div class="game-controls">
+                    <button class="reset-btn" id="mineReset">🔄 Reiniciar</button>
+                </div>
+                <div class="status" id="mineStatus">💣 Clique em uma célula</div>
+            </div>
+
+            <!-- Jogo 4: Quebra-Cabeça 15 -->
+            <div class="game-card">
+                <div class="game-title">🧩 Quebra-Cabeça 15</div>
+                <div class="game-canvas-wrapper">
+                    <canvas id="puzzleCanvas" width="280" height="280"></canvas>
+                </div>
+                <div class="game-controls">
+                    <button class="reset-btn" id="puzzleReset">🔄 Reiniciar</button>
+                </div>
+                <div class="status" id="puzzleStatus">🧩 Mova as peças</div>
+            </div>
+
+            <!-- Jogo 5: Jogo da Memória -->
+            <div class="game-card">
+                <div class="game-title">🃏 Jogo da Memória</div>
+                <div class="game-canvas-wrapper">
+                    <canvas id="memoryCanvas" width="280" height="280"></canvas>
+                </div>
+                <div class="game-controls">
+                    <button class="reset-btn" id="memoryReset">🔄 Reiniciar</button>
+                </div>
+                <div class="status" id="memoryStatus">🃏 Encontre os pares</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
